@@ -1,0 +1,411 @@
+/********************************************************************************************/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*Satrt Header*/
+    .header {
+        text-align: center;
+    }
+    .header .box div{
+        margin-bottom: 15px;
+    }
+    .header .box .info{
+        margin-bottom: 0;
+        justify-content: center;
+    }
+    .header .box .info div {
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+
+    .header .box div:last-child a {
+        padding-left: 10px;
+    }
+
+    /*!*End Header*!*/
+
+    /*!*End Navbar*!*/
+    .navbar-light .navbar-brand img {
+        width: 130px;
+    }
+    .navbar-toggler {
+        padding: 3px 8px;
+        font-size: 20px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding-bottom: 0 ;
+    }
+    .navbar-light .navbar-nav .nav-item:last-child .nav-link {
+        padding-bottom: 30px ;
+    }
+    .navbar-light .navbar-nav .nav-link:after {
+        display: none;
+    }
+    .navbar-light .navbar-nav .active>.nav-link,
+    .navbar-light .navbar-nav .nav-link:hover {
+        border-bottom: none;
+    }
+
+    .navbar .navbar-end a:first-child {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .navbar .navbar-end .btn {
+        width: fit-content;
+    }
+    /*End Navbar*/
+
+    /* start slider */
+    .slider .owl-carousel{
+        background: url('../assets/imgs/header.jpg') no-repeat;
+        background-size:  cover;
+        text-align: center;
+    }
+    .slider .owl-carousel .item p{
+        width: 100%;
+    }
+    /* end slider */
+
+    /* start donation */
+    .donation-request .requests form .form-group:last-child {
+        text-align: center;
+    }
+    .donation-request .requests .info {
+        border-radius: 30px;
+        padding: 20px;
+    }
+    .donation-request .requests .info div:first-child {
+        margin-bottom: 30px;
+    }
+    .donation-request .requests .info div:first-child h2 {
+        font-size: 40px;
+        width: 100px;
+        margin: auto;
+        padding: 25px 0;
+    }
+    .donation-request .requests .info div:nth-child(2) {
+        justify-content: center;
+    }
+    .donation-request .requests .info div:nth-child(2) span {
+        line-height: 1.2;
+        font-size: 18px;
+    }
+    .donation-request .requests .info div:last-child {
+        text-align: center !important;
+        margin-top: 30px;
+    }
+    .donation-request .requests .info div:last-child .btn {
+        width: fit-content;
+        padding: 12px 40px;
+    }
+    /* end donation */
+
+    /* start call */
+    .call .whatsapp p {
+        padding: 20px 20px 20px 60px;
+        font-size: 18px;
+    }
+    .call .whatsapp img {
+        transform: translate(-83%, -47%);
+        height: 77px;
+    }
+    /* end call */
+
+    /* start contact us */
+    .contact-us-preview {
+        text-align: center;
+    }
+    .contact-us-preview .box1 {
+        margin-bottom: 30px;
+    }
+    .contact-us-preview .box1 .mobile-app img {
+        height: 60px;
+    }
+    .contact-us-preview .box1 .mobile-app img:nth-of-type(1){
+        margin-bottom: 20px;
+    }
+    .contact-us-preview .box2 img {
+        height: 250px;
+    }
+    /* end contact us */
+
+    /*Start Footer*/
+    footer {
+        text-align: center;
+    }
+    footer .footer-start div:first-child div:nth-child(1) {
+        margin-bottom: 30px;
+    }
+    .footer-start div:nth-child(3) img {
+        height: 65px;
+    } .footer-start div:first-child p {
+        width: 100%;
+    }
+    /*End Footer*/
+
+    /*Start breadcrumb*/
+    .breadcrumb .breadcrumb-item, .breadcrumb-item a {
+        font-size: 9px;
+    }
+    /*end breadcrumb*/
+}
+
+ /********************************************************************************************/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*Satrt Header*/
+    .header .box div{
+        margin-bottom: 15px;
+    }
+    .header .box .info{
+        margin-bottom: 0;
+        justify-content: center;
+    }
+    .header .box .info div{
+        margin-bottom: 0;
+    }
+    /*!*End Header*!*/
+
+    /*!*End Navbar*!*/
+
+    .navbar-light .navbar-nav .nav-link {
+        padding-bottom: 0 ;
+    }
+    .navbar-light .navbar-nav .nav-item:last-child .nav-link {
+        padding-bottom: 30px ;
+    }
+    .navbar-light .navbar-nav .nav-link:after {
+        display: none;
+    }
+    .navbar-light .navbar-nav .active>.nav-link,
+    .navbar-light .navbar-nav .nav-link:hover {
+        border-bottom: none;
+    }
+    .navbar .navbar-nav .navbar-end a:first-child {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .navbar .navbar-nav .navbar-end .btn {
+        width: fit-content;
+        margin-bottom: 30px;
+    }
+    /*End Navbar*/
+
+    /* start slider */
+    .slider .owl-carousel{
+        background: url('../assets/imgs/header.jpg') no-repeat;
+        background-size:  cover;
+        text-align: center;
+    }
+    .slider .owl-carousel .item p{
+        width: 100%;
+    }
+    /* end slider */
+
+    /* start donation */
+    .donation-request .requests form .form-group:last-child {
+        text-align: center;
+    }
+    .donation-request .requests .info {
+        border-radius: 30px;
+        padding: 20px;
+    }
+    .donation-request .requests .info div:first-child {
+        margin-bottom: 30px;
+    }
+    .donation-request .requests .info div:first-child h2 {
+        font-size: 40px;
+        width: 130px;
+        margin: auto;
+        padding: 35px 0;
+    }
+    .donation-request .requests .info div:nth-child(2) {
+        justify-content: center;
+    }
+    .donation-request .requests .info div:nth-child(2) span {
+        line-height: 1.2;
+    }
+    .donation-request .requests .info div:last-child {
+        text-align: center !important;
+        margin-top: 30px;
+    }
+    .donation-request .requests .info div:last-child .btn {
+        width: fit-content;
+        padding: 12px 40px;
+    }
+    /* end donation */
+
+    /* start contact us */
+    .contact-us {
+        text-align: center;
+    }
+    .contact-us .box1 {
+        margin-bottom: 30px;
+    }
+    .contact-us-preview .box2 img {
+        margin-top: 30px;
+    }
+    /* end contact us */
+
+    /*Start Footer*/
+    footer .footer-start div:first-child div:nth-child(1) {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    footer .footer-start div:first-child p {
+        width: 100%;
+    }
+    footer .footer-start div:first-child div:nth-child(2) {
+        text-align: start;
+    }
+    footer .footer-start div:last-child,
+    footer .footer-start div:nth-child(2) ul {
+        text-align: center;
+    }
+    footer .footer-end{
+        text-align: center;
+    }
+    /*End Footer*/
+}
+
+ /********************************************************************************************/
+
+
+/*Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*Satrt Header*/
+    .header .box div{
+        margin-bottom: 15px;
+    }
+    .header .box .info{
+        margin-bottom: 0;
+        justify-content: center;
+    }
+    .header .box .info div{
+        margin-bottom: 0;
+    }
+    /*!*End Header*!*/
+
+    /*End Navbar*/
+    .navbar-light .navbar-nav .nav-link {
+        padding-bottom: 0 ;
+    }
+    .navbar-light .navbar-nav .nav-item:last-child .nav-link {
+        padding-bottom: 30px ;
+    }
+    .navbar-light .navbar-nav .nav-link:after {
+        display: none;
+    }
+    .navbar-light .navbar-nav .active>.nav-link,
+    .navbar-light .navbar-nav .nav-link:hover {
+        border-bottom: none;
+    }
+    .navbar .navbar-nav .navbar-end a:first-child {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .navbar .navbar-nav .navbar-end .btn {
+        width: fit-content;
+        margin-bottom: 30px;
+    }
+    /*End Navbar*/
+
+    /* start slider */
+    .slider .owl-carousel .item p{
+        width: 45%;
+    }
+    /* end slider */
+
+    /* start donation */
+    .donation-request .requests .info div:first-child h2 {
+        font-size: 50px;
+    }
+    .donation-request .requests .info div:nth-child(2) {
+        justify-content: center;
+    }
+    .donation-request .requests .info div:last-child .btn {
+        background-color: #f5f5f5;
+        width: 100%;
+    }
+    /* end donation */
+
+    /* start contact us */
+    .contact-us {
+        text-align: center;
+    }
+    .contact-us .box1 {
+        margin-bottom: 30px;
+    }
+    .contact-us-preview .box2 img {
+        height: 100%;
+        margin-top: 30px;
+    }
+    /* end contact us */
+
+    /*Start Footer*/
+    footer .footer-start div:nth-child(2) ul {
+        text-align: end;
+    }
+    footer .footer-start div:nth-child(2) ul li {
+        margin-bottom: 25px;
+    }
+    footer .footer-start div:nth-child(3) {
+        text-align: center;
+    }
+    footer .footer-start div:nth-child(3) img:first-of-type {
+        padding-left: 20px;
+    }
+    footer .footer-end div:first-child {
+        text-align: start;
+    }
+    footer .footer-end div:last-child {
+        text-align: end;
+    }
+    footer div:last-child h6 {
+        margin-bottom: 40px;
+    }
+    /*End Footer*/
+}
+
+ /********************************************************************************************/
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*Start Header*/
+    .header .box div{
+        margin-bottom: 0;
+    }
+    /*End Header*/
+
+    /*Start Navbar*/
+    .navbar .navbar-brand img{
+        width: 150px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 26px 10px;
+        font-size: 13px;
+    }
+    .navbar .navbar-nav .navbar-end a:first-child {
+        font-size: 18px;
+    }
+    .navbar .navbar-nav .navbar-end .btn {
+        padding: 5px 20px;
+    }
+    /*End Navbar*/
+
+    /*start donation-request*/
+    .donation-request .requests .info div:first-child h2 {
+        padding: 40px 0;
+        font-size: 40px;
+        width: 100%;
+    }
+    /*End donation-request*/
+}
+
+ /********************************************************************************************/
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+ /********************************************************************************************/

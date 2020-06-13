@@ -1,0 +1,42 @@
+nav ul.pagination {
+    padding: 0;
+    margin: 0;
+}
+nav ul.pagination .page-item {
+    padding: 5px;
+}
+nav ul.pagination .page-item .page-link {
+    padding: 10px 20px;
+    font-size: 23px;
+    color: #2d3e50;
+}
+
+nav ul.pagination .page-item.active .page-link {
+    color: #ffffff;
+    background-color: #2d3e50;
+    border-color: #2d3e50;
+}
+
+/********************************************************************************************/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+    nav ul.pagination .page-item {
+        padding: 0;
+    }
+    nav ul.pagination .page-item .page-link {
+        padding: 6px 13px;
+        font-size: 15px;
+    }
+    .donation-request .requests .info div:first-child {
+        font-size: 15px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    nav ul.pagination .page-item .page-link {
+        padding: 6px 14px;
+        font-size: 23px;
+    }
+}

@@ -1,0 +1,51 @@
+
+/********************************************************************************************/
+
+/*Start who-are-we*/
+.who-are-we {
+    margin-bottom: 30px;
+}
+.who-are-we .card {
+    border-radius: 30px;
+}
+.who-are-we .card .who-are-we-logo img {
+    width: 300px;
+    margin: 30px 0;
+}
+.who-are-we .card .card-text {
+    color: #2d3e50;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+/*end who-are-we*/
+
+/********************************************************************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .who-are-we {
+        text-align: center;
+    }
+    .who-are-we .card .who-are-we-logo img {
+        width: 180px;
+    }
+    .who-are-we .card .card-text {
+        font-size: 18px;
+    }
+}
+
+/********************************************************************************************/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .who-are-we {
+        text-align: center;
+    }
+    .who-are-we .card .who-are-we-logo img {
+        width: 280px;
+    }
+}

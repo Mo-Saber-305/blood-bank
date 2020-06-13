@@ -1,0 +1,149 @@
+
+
+/********************************************************************************************/
+
+/*Start login*/
+.login .card {
+    padding: 40px;
+}
+
+.login .card .login-logo img {
+    width: 335px;
+    margin-bottom: 50px;
+}
+.login .card form .box1 input {
+    height: 60px;
+    font-size: 20px;
+}
+.login .card form .box1 .child1 input {
+    margin-bottom: 40px;
+}
+.login .card form .box2 {
+    margin-top: 30px;
+}
+.login .card form .box2 .child1 span {
+    font-size: 25px;
+}
+.login .card form .box2 .child2 {
+    text-align: left;
+}
+.login .card form .box2 .child2 a {
+    font-size: 25px;
+    color: #282828;
+}
+.login .card form .box2 .child2 img {
+    height: 30px;
+    padding-left: 5px;
+}
+
+.login .card form .box3 .login-btn{
+    padding: 12px;
+    width: 100%;
+    background-color: #3ab54a;
+    color: #ffffff;
+    font-size: 30px;
+}
+.login .card form .box3 {
+    margin-top: 50px;
+}
+.login .card form .box3 .form-group {
+    margin-bottom: 0;
+}
+.login .card form .box3 .create-account-btn{
+    padding: 12px;
+    width: 100%;
+    background-color: #2d3e50;
+    color: #ffffff;
+    font-size: 30px;
+}
+/*End login*/
+
+/********************************************************************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .login .card {
+        padding: 25px 0;
+    }
+    .login .card .login-logo img {
+        width: 300px;
+        margin-bottom: 45px;
+    }
+    .login .card form .box2 .child1 {
+        margin-bottom: 20px;
+    }
+    .login .card form .box2 .child1 span,
+    .login .card form .box2 .child2 a{
+        font-size: 18px;
+    }
+    .login .card form .box2 .child2 {
+        text-align: right;
+    }
+    .login .card form .box3 {
+        margin-top: 40px;
+    }
+    .login .card form .box3 .login-btn {
+        margin-bottom: 30px;
+    }
+    .login .card form .box3 .login-btn,
+    .login .card form .box3 .create-account-btn {
+        font-size: 25px;
+    }
+}
+
+/********************************************************************************************/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .login .card {
+        padding: 25px 0;
+    }
+    .login .card .login-logo {
+        width: 300px;
+        margin: 0 auto 40px;
+    }
+    .login .card form .box2 .child1 span,
+    .login .card form .box2 .child2 a{
+        font-size: 18px;
+    }
+    .login .card form .box3 {
+        margin-top: 40px;
+    }
+    .login .card form .box3 .login-btn {
+        margin-bottom: 30px;
+    }
+    .login .card form .box3 .login-btn,
+    .login .card form .box3 .create-account-btn {
+        font-size: 25px;
+    }
+}
+
+/********************************************************************************************/
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .login .card {
+        padding: 25px 0;
+    }
+    .login .card form .box3 .login-btn,
+    .login .card form .box3 .create-account-btn {
+        font-size: 25px;
+    }
+}
+
+/********************************************************************************************/
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/********************************************************************************************/
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+/********************************************************************************************/

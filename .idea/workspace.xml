@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e2045c5-8a6d-41f9-bf96-d92732d0e781" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1bkrWQsnhWTlxKxfVQtWmvsySDd" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oops" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\projects\jquery-projects\ipda3\blood-bank\ar\html" />
+      <recent name="E:\projects\jquery-projects\ipda3\blood-bank\ar" />
+      <recent name="E:\projects\jquery-projects\ipda3\blood-bank\css\bootstrap-select" />
+      <recent name="G:\projects\ipda3\blood-bank\css\pages\create-account" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\jquery-projects\ipda3\blood-bank\en\html" />
+      <recent name="E:\projects\jquery-projects\ipda3\blood-bank\en" />
+      <recent name="G:\projects\ipda3\blood-bank\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e2045c5-8a6d-41f9-bf96-d92732d0e781" name="Default Changelist" comment="" />
+      <created>1589184040397</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589184040397</updated>
+      <workItem from="1589184120495" duration="2494000" />
+      <workItem from="1589187004814" duration="7225000" />
+      <workItem from="1589194666726" duration="2768000" />
+      <workItem from="1589202458655" duration="23023000" />
+      <workItem from="1589257215429" duration="1127000" />
+      <workItem from="1589259217795" duration="9009000" />
+      <workItem from="1589290137592" duration="7040000" />
+      <workItem from="1589299582411" duration="8690000" />
+      <workItem from="1589358948759" duration="9846000" />
+      <workItem from="1589382107790" duration="2440000" />
+      <workItem from="1589463074003" duration="12825000" />
+      <workItem from="1589483354917" duration="1788000" />
+      <workItem from="1589537791438" duration="752000" />
+      <workItem from="1589557147508" duration="714000" />
+      <workItem from="1589564584702" duration="705000" />
+      <workItem from="1589565494520" duration="1137000" />
+      <workItem from="1589568978466" duration="226000" />
+      <workItem from="1589625448584" duration="4675000" />
+      <workItem from="1589695599740" duration="7529000" />
+      <workItem from="1589748058929" duration="30006000" />
+      <workItem from="1589875607862" duration="27256000" />
+      <workItem from="1589959956943" duration="24188000" />
+      <workItem from="1590046832259" duration="96000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

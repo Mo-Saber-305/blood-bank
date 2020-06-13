@@ -1,0 +1,81 @@
+.donation-requests-show .box {
+    margin-bottom: 25px;
+}
+.donation-requests-show .child-1,
+.donation-requests-show .child-2 {
+    border: 1px solid #f4f4f4;
+    padding: 20px 15px;
+    font-size: 23px;
+}
+.donation-requests-show .child-1 {
+    background-color: #f4f4f4;
+}
+.donation-requests-show .child-2 {
+    background-color: #fbfbfb;
+}
+.donation-requests-show .donation-button {
+    margin: auto;
+}
+.donation-requests-show .donation-button a {
+    background-color: #2d3e50;
+    color: #ffffff;
+    padding: 20px 50px;
+    font-size: 20px;
+    border-radius: 0;
+}
+.donation-requests-show .child-card  {
+    font-size: 23px;
+    line-height: 2;
+    color: #2d3e50;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .donation-requests-show .box {
+        padding: 0;
+    }
+    .donation-requests-show .child-1, .donation-requests-show .child-2 {
+        font-size: 14px;
+    }
+    .donation-requests-show .donation-button a {
+        padding: 15px 40px;
+        font-size: 15px;
+    }
+    .donation-requests-show .child-card {
+        font-size: 19px;
+        line-height: 1.7;
+        text-align: center;
+    }
+}
+
+    /* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .donation-requests-show .box {
+        padding: 0;
+    }
+    .donation-requests-show .child-1, .donation-requests-show .child-2 {
+        font-size: 17px;
+    }
+    .donation-requests-show .donation-button a {
+        padding: 15px 50px;
+        font-size: 18px;
+    }
+    .donation-requests-show .child-card {
+        font-size: 19px;
+        line-height: 1.7;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .donation-requests-show .child-1, .donation-requests-show .child-2 {
+        font-size: 14px;
+    }
+    .donation-requests-show .donation-button a {
+        padding: 15px 50px;
+        font-size: 18px;
+    }
+    .donation-requests-show .child-card {
+        font-size: 20px;
+    }
+}

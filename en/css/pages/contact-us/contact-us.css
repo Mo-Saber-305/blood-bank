@@ -1,0 +1,126 @@
+
+/********************************************************************************************/
+
+/*Start contact-us*/
+.contact-us {
+    margin-bottom: 30px;
+}
+.contact-us .card1 .card-header ,
+.contact-us .card2 .card-header{
+    background: #2d3e50;
+    color: #ffffff;
+    text-align: center;
+}
+.contact-us .card1 .card-img-top {
+    width: 300px;
+    padding: 40px 0;
+}
+.contact-us .card1 .box1 {
+    margin-bottom: 30px;
+}
+.contact-us .card1 .box1 div {
+    color: #2d3e50;
+    font-size: 22px;
+    line-height: 2;
+}
+.contact-us .card1 .box2 {
+    text-align: center;
+}
+.contact-us .card1 .box2 h4 {
+    color: #ad0b0b;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contact-us .card1 .box2 ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+.contact-us .card1 .box2 ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.contact-us .card1 .box2 ul li a img {
+    width: 50px;
+}
+.contact-us .card2 form .form-group input {
+    height: 60px;
+}
+.contact-us .card2 form .form-group textarea {
+    height: 110px;
+}
+.contact-us .card2 form .form-group button {
+    background-color: #2d3e50;
+    color: #fff;
+    padding: 15px 20px;
+    width: 100%;
+    font-size: 25px;
+}
+/*End contact-us*/
+
+/********************************************************************************************/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .contact-us .card1 {
+        margin-bottom: 30px;
+    }
+    .contact-us .card1 .card-img-top {
+        width: 200px;
+        padding: 25px 0;
+    }
+    .contact-us .card1 .box1 div {
+        font-size: 14px;
+        text-align: center;
+    }
+    .contact-us .card1 .box2 ul li a img {
+        width: 45px;
+    }
+    .contact-us .card1 .box2 ul li {
+        margin-bottom: 30px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .contact-us .card1 {
+        margin-bottom: 30px;
+    }
+    .contact-us .card1 .card-img-top {
+        width: 270px;
+        padding: 30px 0;
+    }
+    .contact-us .card1 .box2 ul li a img {
+        width: 45px;
+    }
+    .contact-us .card1 .box2 ul li {
+        padding: 0 7px;
+    }
+    .contact-us .card2 form .form-group button {
+        width: 50%;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .contact-us .card1 {
+        margin-bottom: 30px;
+    }
+    .contact-us .card2 form .form-group button {
+        width: 60%;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .contact-us .card1 {
+        margin-bottom: 30px;
+    }
+    .contact-us .card1 .box1 div {
+        text-align: center;
+    }
+    .contact-us .card2 form .form-group button {
+        width: 60%;
+    }
+}

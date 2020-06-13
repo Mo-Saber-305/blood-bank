@@ -1,0 +1,93 @@
+
+/********************************************************************************************/
+
+/*Start articles-show*/
+.articles-show .articles-img {
+    margin-bottom: 30px;
+}
+.articles-show .articles-img img {
+    height: 400px;
+}
+.articles-show .articles-header {
+    background-color: #2d3e50;
+    color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 25px;
+}
+.articles-show .articles-header .box1 h2 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.articles-show .articles-header .box2 {
+    text-align: left;
+}
+.articles-show .articles-header .box2 a {
+    border-radius: 50%;
+    padding: 7px 12px;
+}
+.articles-show .articles-header .box2 a i{
+    font-size: 20px;
+    vertical-align: middle;
+}
+.articles-show .articles-header .box2 a i:hover{
+    color: #2d3e50;
+}
+.articles-show .articles-details {
+    margin-bottom: 25px;
+}
+.articles-show .articles-details .card .card-body .card-text {
+    color: #2d3e50;
+    font-size: 18px;
+    line-height: 1.9;
+}
+/*End articles-show*/
+
+/********************************************************************************************/
+
+/* start articles */
+.articles .special-heading:after {
+    width: 210px;
+}
+
+/* end articles */
+
+/********************************************************************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .articles-show .articles-img img {
+        height: 100%;
+    }
+    .articles-show .articles-header .box1 h2 {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .articles-show .articles-header .box2 a {
+        padding: 5px 9px;
+    }
+    .articles-show .articles-header .box2 a i {
+        font-size: 17px;
+    }
+    .articles-show .articles-details .card .card-body .card-text {
+        font-size: 15px;
+        text-align: center;
+    }
+    .articles .special-heading {
+        font-size: 22px;
+    }
+    .articles .special-heading:after {
+        width: 150px;
+        top: 35px;
+    }
+    .articles hr {
+        margin-top: 10px;
+    }
+    .articles .articles-content .owl-carousel .owl-nav {
+        top: -90px;
+        font-size: 45px;
+    }
+}

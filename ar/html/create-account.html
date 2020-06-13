@@ -1,0 +1,302 @@
+<!doctype html>
+<html dir="rtl">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="../css/font-awesome/all.min.css">
+
+        <!-- Data Picker CSS -->
+        <link rel="stylesheet" href="../css/jquery-ui.min.css">
+
+        <!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="../css/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="../css/owl-carousel/owl.theme.default.min.css">
+        
+
+        <!-- Pages CSS -->
+        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/index-media.css">
+
+        <!-- Create Account CSS -->
+        <link rel="stylesheet" href="../css/pages/create-account/create-account.css">
+        <link rel="stylesheet" href="../css/pages/create-account/create-account-media.css">
+
+        <title>Blood Bank</title>
+    </head>
+    <body>
+
+        <!---------------------------------------------------------------------------------------->
+
+        <!--Start Header-->
+
+        <header class="header py-2">
+            <div class="container">
+                <div class="box row justify-content-sm-center">
+                    <div class="col-sm-6 col-lg-3">
+                        <a href="#" class="active">عربي</a>
+                        <a href="#">en</a>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 text-sm-right text-lg-center">
+                        <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="col-sm-12 col-lg-5 ">
+                        <div class="info d-flex">
+                            <div>
+                                <span class="text-lowercase">name@name.com</span>
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div>
+                                <span>+9665069549642</span>
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--End Header-->
+
+        <!---------------------------------------------------------------------------------------->
+
+        <!--Start Navbar-->
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="../assets/imgs/logo.png" width="200" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">الرئيسية<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">عن بنك الدم</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">المقالات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="donation-request.html">طلبات التبرع</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="who-are-we.html">من نحن</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">اتصل بنا</a>
+                        </li>
+                    </ul>
+                    <div class="navbar-nav ml-auto">
+                        <div class="navbar-end">
+                            <a class="" href="create-account.html" role="button">
+                                انشاء حساب جديد
+                            </a>
+                            <a class="btn btn-lg" href="login.html" role="button">
+                                الدخول
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!--End Navbar-->
+
+        <!---------------------------------------------------------------------------------------->
+
+        <!--Start Breadcrumb-->
+
+        <div class="container">
+            <nav aria-label="breadcrumb ">
+                <ol class="breadcrumb my-4">
+                    <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">انشاء حساب جديد</li>
+                </ol>
+            </nav>
+        </div>
+
+        <!--End Breadcrumb-->
+
+        <!---------------------------------------------------------------------------------------->
+
+        <!--Start form-->
+
+        <div class="form container">
+
+            <div class="card mb-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="card-body">
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="text"
+                                           class="form-control" aria-describedby="helpId" placeholder="الاسم">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" aria-describedby="emailHelpId"
+                                           placeholder="البريد الألكتروني">
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group date" data-provide="datepicker">
+                                        <input type="text" class="form-control datepicker" placeholder="تاريخ الميلاد">
+                                        <div class="input-group-addon">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text"
+                                           class="form-control" aria-describedby="helpId" placeholder="فصيلة الدم">
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control custom-select">
+                                        <option selected disabled>المحافظه</option>
+                                        <option value="1">القاهره</option>
+                                        <option value="2">الإسكندرية</option>
+                                        <option value="3">الإسماعيلية</option>
+                                        <option value="3">أسوان</option>
+                                        <option value="3">أسيوط</option>
+                                        <option value="3">الأقصر</option>
+                                        <option value="3">البحر الأحمر</option>
+                                        <option value="3">بني سويف</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control custom-select">
+                                        <option selected disabled>المدينه</option>
+                                        <option value="1">السادس من أكتوبر</option>
+                                        <option value="2">الشيخ زايد</option>
+                                        <option value="3">الحَوامْدِيّة</option>
+                                        <option value="3">البَدْرْشِين</option>
+                                        <option value="3">العَيَّاط</option>
+                                        <option value="3">منشأة القناطر</option>
+                                        <option value="3">كِرْداسَة</option>
+                                        <option value="3">أبو النُمْرُس</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <input type="number"
+                                           class="form-control" aria-describedby="helpId" placeholder="رقم الهاتف">
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group date" data-provide="datepicker">
+                                        <input type="text" class="form-control datepicker" placeholder="اخر تاريخ تبرع">
+                                        <div class="input-group-addon">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="كلمة المرور">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="تأكيد كلمة المرور">
+                                </div>
+                                <div class="form-group text-center mb-0">
+                                    <button type="submit" class="btn">انشاء حساب</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--End form-->
+
+        <!---------------------------------------------------------------------------------------->
+
+        <!--Start Footer-->
+
+        <footer>
+            <div class="footer-start col-md-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-8 col-lg-5">
+                            <img src="../assets/imgs/logo.png" width="200" height="80">
+                            <h2>بنك الدم</h2>
+                            <p>
+                                لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال
+                            </p>
+                        </div>
+                        <div class="col-sm-5 col-md-4 col-lg-3">
+                            <ul>
+                                <li  class="active"><a href="index.html">الرئيسية</a></li>
+                                <li><a href="#">عن بنك الدم</a></li>
+                                <li><a href="#">المقالات</a></li>
+                                <li><a href="#">طلبات التبرع</a></li>
+                                <li><a href="#">من نحن</a></li>
+                                <li><a href="#">اتصل بنا</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-7 col-md-12 col-lg-4">
+                            <h6>متوفر علي</h6>
+                            <img src="../assets/imgs/google1.png" alt="">
+                            <img src="../assets/imgs/ios1.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer-end col-md-12">
+                <div class="container">
+                    <div class="row">
+                        <div class=" col-sm-12 col-md-4 mb-sm-3">
+                            <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="col-sm-12 col-md-8 text-md-right">
+                            جميع الحقوق محفوظه ل <span>بنك الدم</span> <span>&copy;</span> 2020
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--End Footer-->
+
+        <!---------------------------------------------------------------------------------------->
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="../js/bootstrap/jquery.min.js"></script>
+        <script src="../js/bootstrap/popper.min.js"></script>
+        <script src="../js/bootstrap/bootstrap.min.js"></script>
+
+        <!--font awesome Js-->
+        <script src="../js/font-awesome/fontawesome.min.js"></script>
+
+        <!--Owl Carousel Js-->
+        <script src="../js/owl-carousel/owl.carousel.min.js"></script>
+
+        <!-- data picker js -->
+        <script src="../js/jquery-ui.min.js"></script>
+
+        <!--Script Js-->
+        <script>
+            //data picker
+            $( function() {
+                $( ".datepicker" ).datepicker();
+            } );
+        </script>
+    </body>
+</html>
